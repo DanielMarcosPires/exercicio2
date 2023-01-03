@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <title>Formulário 1</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header__margin">
+           <h2 class="header__title">G&P</h2>
+            <nav class="nav__list">
+                <a class="header__link--active" href="index.html">Home</a>
+                <a class="header__link" href="./pages/Login/index.html">Login</a>
+                <a class="header__link" href="./pages/Register/index.html">Cadastro</a>
+            </nav>                
+        </div>
+    </header> 
+    <main class="content">
+        <section class="content__section">
+            <h1>Seja bem vindo!</h1>
+          <p>
+            Ao exercicio concluído pelo: Daniel Marcos
+          </p>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module">
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+
+      </script>
+      
+</body>
+</html>

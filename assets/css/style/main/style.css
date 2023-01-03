@@ -1,0 +1,56 @@
+.content__section{
+    margin:5px auto;
+    width: 80%;
+}
+.content__section--register{
+    margin: 0 auto;
+    width: 35%;
+}
+.content__form{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 10px;
+    width:20%;
+}
+.content__form--register{
+    width: 100%;
+}
+.form__limit{
+    position: relative;
+    margin: 8px 0;
+}
+.form__limit label{
+   
+    border: none;
+    right: 100%;
+    width: 100%;
+    transition: 0.2s;
+}
+.form__limit label:focus-within{
+   transform: translateY(2);
+   color: transparent;
+}
+.form__limit label input{
+    outline: none;
+    border: none;
+    border-bottom: solid 2px;
+    width: 100%;
+}
+input[type="submit"]{
+    outline: none;
+}
+textarea{
+    resize: none;
+    padding: 1em 0;
+    width: 100%;
+}
+.form__limit--assinalar{
+    display: flex;
+    flex-direction: column;
+}
+.selection{
+    padding: 8px 1em;
+    text-decoration: underline;
+    font-weight: bold;
+}

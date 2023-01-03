@@ -1,0 +1,12 @@
+@import url('./style/header/style.css');
+@import url('./style/main/style.css');
+:root{
+    --corDafonte__preto:#000;
+    --corDafonte__branco:#fff;
+    --corPrincipal:#fb6304;
+}
+
+d-flex{
+    display: flex;
+    flex-direction: column;
+}

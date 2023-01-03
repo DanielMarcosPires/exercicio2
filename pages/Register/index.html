@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <title>Registro</title>
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header__margin">
+           <h2 class="header__title">G&P</h2>
+            <nav class="nav__list">
+                <a class="header__link" href="../../index.html">Home</a>
+                <a class="header__link" href="../Login/index.html">Login</a>
+                <a class="header__link--active" href="index.html">Registro</a>
+            </nav>                
+        </div>
+    </header>
+    <main class="content">
+        <section class="content__section--register">
+            <h2>Cadastro</h2>
+            <form class="content__form--registe" action="">
+             <div class="form__limit">
+                 <label for="nome">
+                     Nome
+                     <input type="text" id="nome" required>
+                 </label>
+             </div>
+             <div class="form__limit">
+                 <label for="senha">
+                     Senha
+                     <input type="text" id="senha" required>
+                 </label>
+             </div>
+             <ul class="form__limit--assinalar">
+                <li><h2>Sexo:</h2></li>
+                <li>
+                    <label for="1">Masculino</label>
+                    <input type="radio" name="Sexo" id="1">
+
+                </li>
+                <li>
+                    <label for="2">Feminino</label>
+                    <input type="radio" name="Sexo" id="2">
+
+                </li>
+                <li>
+                    <label for="3">Não quero responder</label>
+                    <input type="radio" name="Sexo" id="3">
+                </li>
+             </ul>
+             <ul class="form__limit--assinalar">
+                <li><h2>Interresses:</h2></li>
+            
+                <li>
+                    <label for="i1">Revista</label>
+                    <input type="radio" name="interesse" id="i1">
+
+                </li>
+                <li>
+                    <label for="i2">Esporte</label>
+                    <input type="radio" name="interesse" id="i2">
+
+                </li>
+                <li>
+                    <label for="i3">Jogos</label>
+                    <input type="radio" name="interesse" id="i3">
+                </li>
+                <li>
+                    <label for="i1">Revista</label>
+                    <input type="radio" name="interesse" id="i1">
+
+                </li>
+                <li>
+                    <label for="i2">Esporte</label>
+                    <input type="radio" name="interesse" id="i2">
+
+                </li>
+                <li>
+                    <label for="i3">Jogos</label>
+                    <input type="radio" name="interesse" id="i3">
+                </li>
+             </ul>
+             <div class="form__limit">
+                <select class="selection" name="" id="">
+                    <option value="1">SP</option>
+                    <option value="2">RJ</option>
+                    <option value="3">MG</option>
+                </select>
+             </div>
+             <div class="form__limit">
+                <h2>Observações</h2>
+               <textarea>
+               </textarea>
+               <input type="submit" value="Cadastrar">
+             </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module">
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+
+      </script>
+      
+</body>
+</html>
